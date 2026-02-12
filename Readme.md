@@ -1,7 +1,7 @@
+# RoboHaptics Toolkit (Unitree Go2 EDU v1.0.0)
+
 This is the repository that contains the software ecosystem for the paper titled "RoboHaptics:  Designing Haptic Interactions for the Lower Body with
 Quadruped Robot Dogs" (ACM CHI 2026).
-
-# RoboHaptics Toolkit (Unitree Go2 EDU v1.0.0)
 
 RoboHaptics is a Python toolkit for authoring **lower-body haptic effects** using a Unitree Go2 EDU quadruped. It wraps the Unitree SDK and exposes posture/effect primitives built from **time-parameterized joint trajectories** (default control loop ~200 Hz).
 
@@ -26,19 +26,21 @@ If you do not agree with these terms, do not use this toolkit.
 
 ---
 
-## Safety Guidelines 
-* Use in an open area with clear floor. 
-* Keep body parts away from leg workspace. 
-* Start with slow trajectories (t_move longer, conservative gains).
-* Always have a fast way to stop the process (keyboard interrupt / kill). 
-* If behavior is unexpected, stop immediately and re-run initialization before continuing. 
+## Safety Guidelines
 
---- 
+- Use in an open area with clear floor.
+- Keep body parts away from leg workspace.
+- Start with slow trajectories (t_move longer, conservative gains).
+- Always have a fast way to stop the process (keyboard interrupt / kill).
+- If behavior is unexpected, stop immediately and re-run initialization before continuing.
 
-## Citation 
+---
+
+## Citation
 
 If you use this toolkit in academic work, please cite the RoboHaptics project/paper:
-* Add your BibTeX entry here once finalized. 
+
+- Add your BibTeX entry here once finalized.
 
 ---
 
